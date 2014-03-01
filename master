@@ -1,0 +1,9 @@
+fileserver_backend:
+  - git
+gitfs_remotes:
+  - git+ssh://git@github.com/bretep/salt-multi-environment-gitfs.git
+gitfs_root: states
+ext_pillar:
+  - git: dev git+ssh://git@github.com/bretep/salt-multi-environment-gitfs.git
+  - git: stg git+ssh://git@github.com/bretep/salt-multi-environment-gitfs.git
+  - git: prd git+ssh://git@github.com/bretep/salt-multi-environment-gitfs.git

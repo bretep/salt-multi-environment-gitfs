@@ -1,0 +1,2 @@
+master: salt.example.com
+environment: dev

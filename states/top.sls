@@ -1,0 +1,2 @@
+include:
+  - {{ pillar['master']['environment'] }}
