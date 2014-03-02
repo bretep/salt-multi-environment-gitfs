@@ -1,1 +1,1 @@
-awscli=={{ pillar['pip']['awscli'] }}
+awscli=={{ pillar['pkgs']['pip']['awscli'] }}
