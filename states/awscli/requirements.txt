@@ -1,0 +1,1 @@
+awscli=={{ pillar['pip']['awscli'] }}
